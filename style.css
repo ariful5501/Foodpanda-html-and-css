@@ -1,0 +1,277 @@
+.singn{text-decoration: none; color: rgb(255, 255, 255);}
+
+
+.addheading{
+    margin: 0 40px;
+}
+
+
+
+.signuphead:hover{
+    color: #DD7DA6;
+    background-color: rgb(129, 9, 59);
+}
+
+
+.loginm:hover{
+background-color: rgb(240, 230, 232);
+
+}
+
+.clo{background-color: #E21B70;}
+
+.clo:hover{
+background-color: rgb(143, 23, 63);
+}
+
+.usericon{display: none;  margin-left: 15px;}
+
+.bg{background-color: #F7F7F7;}
+
+.hero{
+    display: grid;
+    grid-template-columns: 40% 60%;
+    /* text-align: center; */
+    /* align-content: center; */
+    /* margin-top: -10px; */
+    
+}
+
+.hero1{
+    margin-top: 200px;
+    text-align: center;
+}
+ 
+.hero2{
+   float: right;
+   margin-top: 20px;
+   width: 100%;
+   
+
+}
+
+.findfood:hover{
+background-color: #DD7DA6;
+}
+
+a{text-decoration: none;}
+
+.tttt2{
+    font-size: xx-large;
+}
+
+.store22{display: none;}
+
+.paragraph{box-shadow: 0 4px 8px 0 rgba(22, 22, 22, 0.2); background-color:white; margin-top: -12%; height: 60%; width: 40%; position: absolute; border-radius: 20px; padding: 2%; margin-left: 4%; color: rgb(70, 62, 62); font-size: large;}
+.getst{
+    color: white;
+    background-color: #E21B70;
+    padding: 10px;
+    border-radius: 6px;
+    
+}
+
+
+.imageGallery{
+    margin: 20px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 20px 20px;
+}
+
+.dhaka{
+    background-image: url(https://images.deliveryhero.io/image/fd-bd/city-title/city-title-Dhaka.jpg);
+    background-size: cover;
+    width: 310px;
+    height: 200px;
+    border-radius: 20px;
+    
+}
+
+.gapforjela{
+    height: 68%;
+    padding-left: 20px;
+}
+
+.gelaname{
+margin-left: 10px;
+padding: 8px;
+background-color: white;
+border-radius: 10px;
+}
+
+
+.apps{
+    background-color: #E21B70;
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    
+    width: 97%;
+}
+
+
+.country{
+    margin: 30px;
+    display: flex;
+    margin-top: 70px;
+    width: 70%;
+    
+}
+
+
+.cnt{
+    padding: 10px;
+    border-right: 1px solid gray;
+}
+
+
+.cnt:hover{
+    color: #E21B70;
+}
+
+
+.fotter{
+    display: flex;
+    margin: 30px;
+    /* gap: 100px; */
+    width: 95%;
+    justify-content: space-between;
+    margin-top: 100px;
+    color: #E21B70;
+}
+
+.cp{
+    color: #E21B70;
+    font-size: x-large;
+}
+
+.fl{
+    display: flex;
+    margin: 30px;
+    justify-content: space-between;
+}
+
+
+.appimg{width: 600px;}
+
+.appara{
+    width: 400px;
+}
+
+
+@media screen and (max-width: 599px) {
+    .bagimg{display: none;}
+    .addheading{margin-left: 8px; margin-right: -23px;}
+    .signuphead{margin-right: 10px;}
+    .noview{display: none;}
+    /* .nav{display: flex;} */
+    .usericon{display: block;}
+    .hero1{
+        margin-top: 0px;
+        margin-left: 3px;
+        text-align: center;
+        font-size: small;   
+    }
+
+    .tttt2{font-size: x-large;}
+    
+    .store{display: none;}
+
+    .store22{display: block;}
+
+    .paragraph{
+        width: 88%;
+    }
+   .imageGallery{
+    grid-template-columns: auto;
+   }
+   .apps{
+    display: grid;
+    width: 90%;
+   } 
+    .appimg{width: 300px;
+    justify-content: center;
+    align-items: center;
+    }
+
+    .country{
+        display: grid;
+        gap: 8PX;
+        justify-content: center;
+        border-right: none;
+    }
+
+    .fotter{
+        display: grid;
+    }
+
+    .fl{
+        display: grid;
+        gap: 9PX;
+    }
+
+    .applink{
+        display: grid;
+    }
+
+    .appara{
+        width: 160px;
+        margin-left: 9px;
+    }
+    .paragraph{height: 83%}
+}
+
+@media screen and (width: 768px){
+    .imageGallery{
+        grid-template-columns: auto auto;
+       }
+
+       .appara{
+        width: 160px;
+        margin-left: 9px;
+    }
+
+    .applink{
+        display: grid;
+    }
+
+    .apps{
+        display: grid;
+        width: 90%;
+       } 
+        .appimg{width: 300px;
+        justify-content: center;
+        align-items: center;
+        }
+
+        .paragraph{height: 83%}
+}
+
+
+@media screen and (width: 1024px){
+    .imageGallery{
+        grid-template-columns: auto auto auto;
+       }
+
+       .appara{
+        width: 160px;
+        margin-left: 9px;
+    }
+
+    .applink{
+        display: grid;
+    }
+
+    .apps{
+        display: grid;
+        width: 90%;
+       } 
+        .appimg{width: 300px;
+        justify-content: center;
+        align-items: center;
+        }
+
+        .paragraph{height: 83%}
+}
